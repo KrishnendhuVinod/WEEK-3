@@ -75,7 +75,7 @@ def main():
     
     summary = group_chat.run(url)
     
-    print("\n=== Final Summary ===\n")
+    print("\n Final Summary\n")
     print(summary)
 
     with open("summary.txt", "w", encoding="utf-8") as f:
