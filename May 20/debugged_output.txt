@@ -1,0 +1,23 @@
+=== Generated Code Debugging ===
+Linter Output 
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+
+Execution Output
+7 is a prime number
+7 is a prime number
+
+
+=== User Code Debugging ===
+Linter Output 
+************* Module tmp2v9hp4sg
+C:\Users\DELL\AppData\Local\Temp\tmp2v9hp4sg.py:2:7: E0602: Undefined variable 'a' (undefined-variable)
+C:\Users\DELL\AppData\Local\Temp\tmp2v9hp4sg.py:2:9: E0602: Undefined variable 'b' (undefined-variable)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+
+Execution Output
