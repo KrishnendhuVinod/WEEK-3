@@ -1,0 +1,6 @@
+=== Chat History ===
+
+You: What is RAG?
+Bot: RAG, or Retrieval-Augmented Generation, is a technique that enhances the capabilities of large language models (LLMs) like Gemini by first retrieving relevant documents from a database (like ChromaDB) before generating an answer to a question.  This ensures the answer is grounded in and informed by specific, relevant information, rather than relying solely on the LLM's pre-trained knowledge.
+You: How does ChromaDB help this project?
+Bot: ChromaDB acts as the vector database in a Retrieval-Augmented Generation (RAG) pipeline.  It stores the embeddings of documents.  When Gemini receives a question, it generates a query embedding. ChromaDB then uses this embedding to efficiently retrieve the most similar documents from its database. These retrieved documents are then used by Gemini as context to formulate a more accurate and informative answer, improving the quality and relevance of Gemini's responses.  In short, ChromaDB enables efficient similarity search, providing Gemini with the relevant information needed for RAG.
