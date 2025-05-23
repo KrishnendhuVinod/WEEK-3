@@ -1,0 +1,5 @@
+python-dotenv
+validators
+google-generativeai
+selenium
+beautifulsoup4
